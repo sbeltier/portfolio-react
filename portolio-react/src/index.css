@@ -31,6 +31,11 @@ ul {
   margin-top: 10px;
 }
 
+.image.is-48x48 {
+  width: 24px !important;
+  height: 24px !important;
+}
+
 #about-me {
   display: flex;
   padding: 10px;
