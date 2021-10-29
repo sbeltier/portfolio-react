@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+#name-nav {
+  justify-content: space-between;
+  background-color: #e2d1c5;
+  padding: 10px;
+  color: black;
+}
+
+#name {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+#about-me {
+  display: flex;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-me-description,
+#greeting-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+#about-me-description p {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+figure {
+  width: 30%;
+  height: 100%;
+  margin: 0;
+}
+
+#greeting {
+  font-size: 3em;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #f8f0ea;
+}
+
+.mediumCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #f8f0ea;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.5;
+  padding: 1.5rem;
+  font-weight: 500;
+}
+
+.projects {
+  width: 40%;
+  flex-basis: auto;
+  z-index: 1;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.project-blurb-hide {
+  display: inline-block;
+  visibility: hidden;
+  position: relative;
+  text-align: center;
+  right: 100%;
+}
+
+.project-blurb-show {
+  display: inline-block;
+  visibility: visible;
+  position: relative;
+  text-align: center;
+  right: 100%;
+}
+
+#featured {
+  width: 80%;
+}
+
+#featured-image {
+  width: 100%;
+}
+
+.nofeature {
+  width: 50%;
+}
+
+#contact-me-container {
+  background-color: #e1d6ce;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-span {
+  text-align: center;
+}
+
+#contact-me-form {
+  width: 30%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#social-handles {
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
+  padding: 1.5rem;
+}
+
+#social-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#social-logos a {
+  width: max-content;
+  padding: 0.5rem;
+}
+
+.subheading2 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 1.5rem;
+  font-weight: 400;
+}
+
+div div img:hover {
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.801);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.modal {
+  z-index: 10000;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 2%;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal-container {
+  text-align: -webkit-center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 200%;
+  font-weight: bold;
+  z-index: 10001;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #photo-sb {
+    width: max-content;
+  }
+
+  #about-me-description,
+  #greeting-container {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
