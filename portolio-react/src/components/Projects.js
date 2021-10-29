@@ -7,27 +7,29 @@ import project5 from './images/day-lee-laugh-cover-16-9.jpg'
 
 
 const Projects = () => {
+
     return (
         <>
-            <div id="portfolio" class="container tile-ancestor">
 
-                <span class="subheading">
+            <div id="portfolio" className="container tile-ancestor">
+
+                <span className="subheading">
                     Portfolio
                 </span>
-                <div class="project-images">
-                    <div class="tile projects" id="featured">
+                <div className="project-images">
+                    <div className="tile projects" id="featured">
                         <img src={workday} id="featured-image" alt="placeholder" />
                     </div>
-                    <div id="project2" class="tile projects nofeature">
+                    <div id="project2" className="tile projects nofeature">
                         <img src={project2} />
                     </div>
-                    <div id="project3" class="tile projects nofeature">
+                    <div id="project3" className="tile projects nofeature">
                         <img src={project3} />
                     </div>
-                    <div id="project4" class="tile projects nofeature">
+                    <div id="project4" className="tile projects nofeature">
                         <img src={project4} />
                     </div>
-                    <div id="project5" class="tile projects nofeature">
+                    <div id="project5" className="tile projects nofeature">
                         <img src={project5} />
                     </div>
                 </div>

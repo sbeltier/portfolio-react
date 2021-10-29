@@ -1,4 +1,5 @@
 import React from 'react'
+import me from './images/me2.jpg'
 
 const Largecard = () => {
     return (
@@ -10,7 +11,7 @@ const Largecard = () => {
             </div>
             {/* <!-- Image --> */}
             <figure>
-                <img src="assets/images/me2.jpg" id="photo-sb" />
+                <img src={me} id="photo-sb" />
             </figure>
             {/* <!-- Description --> */}
             <div id="about-me-description">

@@ -1,5 +1,4 @@
 import React from 'react'
-import NavTabs from "../NavTabs"
 import Form from "../Form"
 
 const ContactMe = () => {
