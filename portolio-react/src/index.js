@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './reset.css';
+import 'bulma/css/bulma.min.css';
+
 import './index.css';
+
 
 
 ReactDOM.render(

@@ -1,5 +1,5 @@
 import React from 'react'
-import workDayP from '/public/images/_p-work-day-scheduler.png'
+import workDayP from './images/_p-work-day-scheduler.png'
 
 const Modal = () => {
     return (
