@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
         <>
         <Modal />
-        <Modalclick />
+        {/* <Modalclick /> */}
         <Projects />
         </>
     )

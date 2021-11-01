@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import workDayP from './images/_p-work-day-scheduler.png'
 import project2 from './images/_p-weather-dashboard.png'
 import project3 from './images/_p-password-generator.png'
@@ -7,7 +8,29 @@ import project5 from './images/_p-the-day-lee-laugh.jpg'
 
 
 const Modal = () => {
+useEffect(() => {
+    let projects = document.getElementsByClassName('projects')
+    console.log('entering Modal')
+    console.log('entering Modal')
 
+    // Add Event Listener to Projects
+    for (let j = 0; j < projects.length; j++) {
+        projects[j].addEventListener('click', function () {
+            let modalID = "project" + (j + 1) + "-modal"
+            let modal = document.getElementById(modalID)
+            modal.classList.remove('hide')
+            modal.classList.add('show')
+
+            // Close out Modal
+            let span = document.getElementsByClassName('close')[j]
+            span.addEventListener('click', function () {
+                modal.classList.remove('show')
+                modal.classList.add('hide')
+
+            })
+        })
+    }
+}) 
     return (
         <>
             <div id="project1-modal" className="modal hide container">
